@@ -49,9 +49,11 @@ public class ExamplesThread {
 	
 		MyThread tObj = new MyThread();
 		MyThread tObj1 = new MyThread();
-		
-		tObj.start();
-		tObj.interrupt();
+		tObj.setName("row1");
+		tObj1.setName("row2");
+		tObj.setDaemon(true);
+		//tObj.start();
+		//tObj.interrupt();
 		
 		tObj1.start();
 		//tObj.start(); we can not call start method twice as the thread is already runing it will give u illeagal thread state exception.
@@ -62,6 +64,8 @@ public class ExamplesThread {
 	}
 
 }
+
+
 
 
 
