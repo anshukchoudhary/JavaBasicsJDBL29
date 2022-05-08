@@ -12,6 +12,7 @@ public class DemosecurityApplication {
 
 		BCryptPasswordEncoder bCryptPasswordEncoder = new BCryptPasswordEncoder();
 
+
 		System.out.println(bCryptPasswordEncoder.encode("Tom123"));
 		System.out.println(bCryptPasswordEncoder.encode("John123"));
 
