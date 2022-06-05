@@ -43,8 +43,7 @@ public class NotificationConfig {
 
 		jms.setHost("smtp.gmail.com");
 		jms.setPort(587);
-		jms.setUsername("jdbl2951@gmail.com");
-		jms.setPassword("northnewyork@123./");
+	
 
 		Properties properties = jms.getJavaMailProperties();
 		//props.put("mail.smtp.starttls.enable", "true");
